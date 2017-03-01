@@ -1,0 +1,4 @@
+/Users/danielbillmann/Dropbox/Developing/python_dev/udemy_py_data/
+here is the filepath to this directory
+ please use it on other projects to make your life easier!
+Hopefully it's worth it

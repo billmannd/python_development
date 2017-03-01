@@ -1,0 +1,44 @@
+Major Points: 
+
+Booleans: 
+    a data type whose value is "True" or "False"
+    
+    Boolean operators: compare two (or more) values in order to determine how
+    a program should proceed. 
+        Examples: 
+  operator | operator word form | use in sentence w/ response        | code, output
+  ---------------------------------------------------------------------------------------
+        == | "equals"           | "Is pie delicious? Yes"            | pie == delicious, True 
+        != | "does not equal"   | "Is pie not delicious? No"         | pie != delicious, False
+        >  | "greater than"     | "Is 7 bigger than 7 > 4? Yes"      | 7 > 4, True 
+        <  | "less than"        | "Is 7 less than 7 < 4? No"         | 7 < 4, False
+        >= | "greater or equal" | "Is 7 bigger than/equal to 4? Yes" | 7 >= 7, True
+        <= | "less or equal"    | "Is 7 less than/equal to 99? Yes"  | 7 <= 99, True
+
+
+
+Conditionals: statements which allow you to compare two or more things and
+perform actions based on the conditional statements. 
+
+they are in the following syntax
+
+if <variable or value> <conditional (see above)> <other variable(s) or value(s)>: 
+    <perform action> 
+    actions might be "print a value", multiply two numbers, hit a web server, etc
+
+elif <variable or value> <conditional (see above)> <other variable or value>:
+    *elif is an abbreviation for "else if"
+    it still needs to compare two or more  values 
+    still performs actions
+    you can have multiple elif statements between an "if" and "else" statement
+else: 
+    else doesn't need to declare anything. It is saying "if none of the above 
+    condition(s) are met, then we're gonna do this
+
+Functions: 
+
+We can go over this another time, conditionals are a lot already. I included 
+some documentation if you want to look into it on your own. 
+
+references: 
+https://docs.python.org/3/library/stdtypes.html 
